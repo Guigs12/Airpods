@@ -225,7 +225,7 @@ footer {
     font-weight: bold;
 }
 
-@media (max-width:1083px) {
+@media (max-width:1163px) {
     .content {
         display: flex;
         justify-content: center;
