@@ -88,9 +88,10 @@ a.destaque:hover {
 
 /* Inicio Main */
 main.container {
-    padding: 40px;
+    padding: 0px;
     margin: 0 auto;
     display: flex;
+    margin-top: 50px;
 }
 
 .content {
