@@ -92,7 +92,6 @@ main.container {
     margin: 0 auto;
     display: flex;
     margin-top: 50px;
-    height: 100%;
 }
 
 .content {
@@ -190,9 +189,12 @@ div.airpod-img img {
 /* Inicio Footer */
 
 footer {
-    flex-shrink: 0;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: end;
+    align-content: center;
+    padding: 20px 0px;
 }
 
 
@@ -209,8 +211,8 @@ footer {
 
 .destaque-footer{
     display: flex;
-    justify-self: center;
-    align-self: center;
+    justify-content: center;
+    align-content: center;
     margin-top: 10px;
 }
 
