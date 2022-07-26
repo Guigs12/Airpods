@@ -271,6 +271,12 @@ footer {
         }
     }
 
+    @media (max-width: 480px) {
+        .text-apresentação h1 {
+            font-size: 23px;
+        }
+    }
+
     @media (max-width: 450px) {
         .text-apresentação {
             position: relative;
@@ -313,6 +319,11 @@ footer {
     }
 
     @media (max-width: 375px) {
+
+        .text-apresentação h1 {
+            font-size: 22px;
+        }
+        
         .destaque-text {
             display: flex;
             justify-self: center;
