@@ -281,7 +281,7 @@ footer {
     @media (max-width: 450px) {
         .text-apresentação {
             position: relative;
-            top: 100px;
+            top: 40px;
         }
         div.airpod-img {
             width: 100%;
