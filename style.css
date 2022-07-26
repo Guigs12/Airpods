@@ -273,6 +273,11 @@ footer {
         .text-apresentação h1 {
             font-size: 23px;
         }
+
+        .text-contato {
+            position: relative;
+            top: 100px;
+        }
     }
 
     @media (max-width: 450px) {
@@ -299,6 +304,11 @@ footer {
             align-items: center;
         }
 
+        .text-contato {
+            position: relative;
+            top: 150px;
+        }
+
         footer {
             margin-top: 200px;
         }
@@ -313,6 +323,11 @@ footer {
             font-size: 14px;
             width: 100%;
             line-height: 20px;
+        }
+
+        .text-contato {
+            position: relative;
+            top: 200px;
         }
     }
 
@@ -370,6 +385,8 @@ footer {
         div.airpod-img img {
             height: 150px;
             position: relative;
+            top: -30px;
+            margin-bottom: 20px;
             
         }
 
