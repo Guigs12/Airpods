@@ -163,7 +163,7 @@ main.container {
     justify-content: center;
     align-content: center;
     text-decoration: none;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 
@@ -233,14 +233,29 @@ footer {
 
     .airpod-img img {
         position: relative;
-        bottom: 200px;
+        bottom: 0px;
+    }
+
+    div.preco-info {
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width: 1083px) {
+
+    div.airpod-img img{
+        position: relative;
+        bottom: 130px;
     }
 
     div.preco-info {
         position: relative;
-        top: 450px;
+        top: 400px;
         margin: 0 auto;
-        margin-bottom: 100px;
+    }
+
+    .text-contato {
+        margin-top: 100px;
     }
 }
 
@@ -257,155 +272,160 @@ footer {
         bottom: 1000px;
     }
 
+
+    .text-contato {
+        position: relative;
+        top: 100px;
+    }
     footer {
         margin-top: 100px;
     }
 
-    @media (max-width: 569px) {
-        .navbar {
-            gap: 20px 0px;
-        }
+@media (max-width: 569px) {
+    .navbar {
+        gap: 20px 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-apresentação h1 {
+        font-size: 23px;
     }
 
-    @media (max-width: 480px) {
-        .text-apresentação h1 {
-            font-size: 23px;
-        }
+    .text-contato {
+        position: relative;
+        top: 100px;
+    }
+}
 
-        .text-contato {
-            position: relative;
-            top: 100px;
-        }
+@media (max-width: 450px) {
+    .text-apresentação {
+        position: relative;
+        top: 40px;
+    }
+    div.airpod-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 
-    @media (max-width: 450px) {
-        .text-apresentação {
-            position: relative;
-            top: 40px;
-        }
-        div.airpod-img {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-        }
-
-        div.airpod-img img {
-            height: 200px;
-        }
-
-        div.preco-info {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .text-contato {
-            position: relative;
-            top: 150px;
-        }
-
-        footer {
-            margin-top: 200px;
-        }
+    div.airpod-img img {
+        height: 200px;
     }
 
-    @media (max-width: 420px) {
-        .destaque-text {
-            width: 320px;
-        }
-
-        .destaque-text h3 {
-            font-size: 14px;
-            width: 100%;
-            line-height: 20px;
-        }
-
-        .text-contato {
-            position: relative;
-            top: 200px;
-        }
+    div.preco-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    @media (max-width: 375px) {
+    .text-contato {
+        position: relative;
+        top: 150px;
+    }
 
-        .text-apresentação h1 {
-            font-size: 22px;
-        }
+    footer {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 420px) {
+    .destaque-text {
+        width: 320px;
+    }
+
+    .destaque-text h3 {
+        font-size: 14px;
+        width: 100%;
+        line-height: 20px;
+    }
+
+    .text-contato {
+        position: relative;
+        top: 200px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .text-apresentação h1 {
+        font-size: 22px;
+    }
+    
+    .destaque-text {
+        display: flex;
+        justify-self: center;
+        width: 80%;
+    }
+
+    div.airpod-img img {
+        position: relative;
+        bottom: 150px;
+        margin-top: 0px;
+    }
+
+    div.preco-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 140px;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar {
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+
+    .text-apresentação h1 {
+        font-size: 18px;
+        position: relative;
+        left: 60px;
+        width: 120px;
+    }
+
+    .destaque-text {
+        width: 100%;
+    }
+
+    div.airpod-img{
+        position: relative;
+        bottom: 20px;
+        height: 0px;
+    }
+
+    div.airpod-img img {
+        height: 150px;
+        position: relative;
+        top: -30px;
+        margin-bottom: 20px;
         
-        .destaque-text {
-            display: flex;
-            justify-self: center;
-            width: 80%;
-        }
-
-        div.airpod-img img {
-            position: relative;
-            bottom: 150px;
-            margin-top: 0px;
-        }
-
-        div.preco-info {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 140px;
-        }
     }
 
-    @media (max-width: 320px) {
-        .navbar {
-            width: 100%;
-            position: relative;
-            left: 0px;
-        }
-
-        .text-apresentação h1 {
-            font-size: 18px;
-            position: relative;
-            left: 60px;
-            width: 120px;
-        }
-
-        .destaque-text {
-            width: 100%;
-        }
-
-        div.airpod-img{
-            position: relative;
-            bottom: 20px;
-            height: 0px;
-        }
-
-        div.airpod-img img {
-            height: 150px;
-            position: relative;
-            top: -30px;
-            margin-bottom: 20px;
-            
-        }
-
-        .content {
-            gap: 0px;
-        }
-
-        div.preco-info {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            top: 300px;
-        }
-
-        .destaque-footer {
-            position: relative;
-            top: 20px;
-            width: 200px;
-            margin: 0 auto;
-        }
+    .content {
+        gap: 0px;
     }
+
+    div.preco-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 300px;
+    }
+
+    .destaque-footer {
+        position: relative;
+        top: 20px;
+        width: 200px;
+        margin: 0 auto;
+    }
+}
 }
