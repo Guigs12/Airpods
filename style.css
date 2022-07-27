@@ -313,6 +313,7 @@ footer {
 
     div.airpod-img img {
         height: 200px;
+        top: 0;
     }
 
     div.preco-info {
@@ -363,8 +364,8 @@ footer {
 
     div.airpod-img img {
         position: relative;
-        bottom: 150px;
-        margin-top: 0px;
+        bottom: 250px;
+        margin-top: -130px;
     }
 
     div.preco-info {
@@ -404,7 +405,7 @@ footer {
         height: 150px;
         position: relative;
         top: -30px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         
     }
 
