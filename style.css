@@ -244,18 +244,44 @@ footer {
 @media (max-width: 1083px) {
 
     div.airpod-img img{
+        height: 250px;
         position: relative;
-        bottom: 130px;
+        bottom: 30px;
     }
 
     div.preco-info {
         position: relative;
-        top: 400px;
+        top: 0px;
         margin: 0 auto;
     }
 
     .text-contato {
         margin-top: 100px;
+    }
+}
+
+@media (max-width: 993px) {
+    div.airpod-img img{
+        height: 250px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    div.preco-info {
+        position: relative;
+        top: 0px;
+    }
+}
+
+@media (max-width: 993px) {
+    div.airpod-img img {
+        position: relative;
+        bottom: 100px;
+    }
+
+    div.preco-info {
+        position: relative;
+        top: 330px;
     }
 }
 
@@ -269,7 +295,7 @@ footer {
 
     div.preco-info {
         position: relative;
-        bottom: 1000px;
+        top: 350px;
     }
 
 
@@ -373,7 +399,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 140px;
+        margin-bottom: 40px;
     }
 }
 
@@ -404,7 +430,7 @@ footer {
     div.airpod-img img {
         height: 150px;
         position: relative;
-        top: -30px;
+        top: 70px;
         margin-bottom: 10px;
         
     }
@@ -419,7 +445,7 @@ footer {
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 300px;
+        top: 250px;
     }
 
     .destaque-footer {
