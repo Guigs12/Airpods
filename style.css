@@ -264,12 +264,13 @@ footer {
     div.airpod-img img{
         height: 250px;
         position: relative;
-        bottom: 20px;
+        top: -30px;
     }
 
     div.preco-info {
+        margin: 0;
         position: relative;
-        top: 0px;
+        top: -110px;
     }
 }
 
@@ -281,7 +282,21 @@ footer {
 
     div.preco-info {
         position: relative;
-        top: 330px;
+        top: 20px;
+    }
+}
+
+@media (max-width: 933px) {
+    div.airpod-img img {
+        position: relative;
+        top: -110px;
+        margin: 0 auto;
+    }
+
+    div.preco-info {
+        position: relative;
+        top: 310px;
+        margin: 0 auto;
     }
 }
 
@@ -295,7 +310,7 @@ footer {
 
     div.preco-info {
         position: relative;
-        top: 350px;
+        top: 310px;
     }
 
 
@@ -309,7 +324,7 @@ footer {
 
 @media (max-width: 569px) {
     .navbar {
-        gap: 20px 0px;
+        gap: 20px 10px;
     }
 }
 
@@ -339,7 +354,7 @@ footer {
 
     div.airpod-img img {
         height: 200px;
-        top: 0;
+        top: -90px;
     }
 
     div.preco-info {
@@ -347,6 +362,8 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
+        top: 300px;
     }
 
     .text-contato {
@@ -390,8 +407,7 @@ footer {
 
     div.airpod-img img {
         position: relative;
-        bottom: 250px;
-        margin-top: -130px;
+        bottom: -250px;
     }
 
     div.preco-info {
@@ -399,7 +415,8 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 40px;
+        position: relative;
+        top: 290px;
     }
 }
 
@@ -430,7 +447,7 @@ footer {
     div.airpod-img img {
         height: 150px;
         position: relative;
-        top: 70px;
+        top: 30px;
         margin-bottom: 10px;
         
     }
@@ -445,7 +462,7 @@ footer {
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 250px;
+        top: 220px;
     }
 
     .destaque-footer {
