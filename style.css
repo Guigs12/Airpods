@@ -199,3 +199,13 @@ footer a:hover {
         height: 200px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .apresentacao-text {
+        padding: 0px 0px;
+    }
+
+    header {
+        border-bottom: none;
+    }
+}
