@@ -80,6 +80,10 @@ header {
     letter-spacing: 3px;
 }
 
+.apresentacao-text h3 {
+    font-size: 18px;
+}
+
 .apresentacao-text p {
     font-size: 17px;
     font-weight: 300;
